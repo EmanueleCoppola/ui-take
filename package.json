@@ -1,0 +1,21 @@
+{
+  "name": "ui-take",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "syncpack:list": "syncpack-list-mismatches",
+    "syncpack:fix": "syncpack-fix-mismatches"
+  },
+  "devDependencies": {
+    "syncpack": "^13.0.4",
+    "turbo": "^2.6.0",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "yarn@4.10.3",
+  "workspaces": [
+    "packages/*"
+  ]
+}
