@@ -1,0 +1,10 @@
+{
+  "eslint.workingDirectories":  [
+    { "directory": "./", "changeProcessCWD": true },
+    { "pattern": "packages/*/" }
+  ],
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}
