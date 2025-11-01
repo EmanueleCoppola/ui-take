@@ -1,0 +1,8 @@
+{
+  "name": "@ui-take/typescript-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/tsconfig": "^0.8.1"
+  }
+}

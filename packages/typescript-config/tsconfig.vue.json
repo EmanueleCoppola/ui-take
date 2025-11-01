@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./tsconfig.browser.json",
+    "@vue/tsconfig/tsconfig.dom.json"
+  ]
+}
