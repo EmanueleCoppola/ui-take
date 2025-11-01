@@ -10,6 +10,8 @@
     "syncpack:fix": "syncpack-fix-mismatches"
   },
   "devDependencies": {
+    "@types/node": "^24.9.2",
+    "jiti": "2.6.1",
     "syncpack": "^13.0.4",
     "turbo": "^2.6.0",
     "typescript": "^5.9.3"
