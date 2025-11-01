@@ -1,0 +1,36 @@
+{
+  "name": "@ui-take/eslint-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-vue": "^10.5.1",
+    "typescript-eslint": "^8.46.2",
+    "vue-eslint-parser": "^10.2.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-vue": {
+      "optional": true
+    },
+    "vue-eslint-parser": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "globals": "^16.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "@types/lodash": "^4.17.20",
+    "@ui-take/typescript-config": "workspace:*",
+    "eslint": "^9.39.0",
+    "eslint-plugin-vue": "^10.5.1",
+    "typescript-eslint": "^8.46.2",
+    "vue-eslint-parser": "^10.2.0"
+  }
+}

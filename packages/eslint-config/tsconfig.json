@@ -1,0 +1,6 @@
+{
+  "extends": "@ui-take/typescript-config/tsconfig.node.json",
+  "include": [
+    "**/*.ts"
+  ]
+}
